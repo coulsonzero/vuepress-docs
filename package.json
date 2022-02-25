@@ -4,9 +4,15 @@
   "private": true,
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "author": "coulsonzero",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coulsonzero/vuepress-docs.git"
+  },
+  "keywords": [],
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.35",
