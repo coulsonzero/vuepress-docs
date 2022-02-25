@@ -4,15 +4,15 @@
 
 
 <CodeGroup>
-  <CodeGroupItem title="YARN">
+  <CodeGroupItem title="yarn">
 
 ```bash:no-line-numbers
-yarn
+yarn add
 ```
 
   </CodeGroupItem>
 
-  <CodeGroupItem title="NPM" active>
+  <CodeGroupItem title="npm" active>
 
 ```bash:no-line-numbers
 npm install

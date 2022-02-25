@@ -1,6 +1,6 @@
 # Echarts
 
-[TOC]
+[[TOC]]
 
 ## Legend
 
@@ -8,7 +8,7 @@
 legend: {},
 ```
 
-```
+```typescript
 data
 //图标
 icon: 'circle',   //'roundRect'
@@ -33,7 +33,7 @@ right
 ```
 For Example
 
-```
+```typescript
 legend: {
   // data: ['A','B'],
   icon: "circle",
@@ -51,21 +51,26 @@ grid: {
   containLabel: true
 },
 ```
+
 ### 显示子项 （series中添加name即可）
+
 - 不显示
-```
+```typescript
 show: false,
 ```
+
 -  显示(加了legend)
-```
+```typescript
 legend: {//show: true,  //可缺省}
 series: [{name: 'A'}],
 ```
+
 - 特定显示
-```
+```typescript
 selected: {'A': false},
 //selected: {'A': false, 'B': true},   //默认为true
 ```
+
 **For Example**
 
 ```typescript
@@ -90,7 +95,7 @@ series: [
 
 #### a. 图标形状
 -   默认(圆角矩形)
-```
+```typescript
 icon: 'roundRect',
 ```
 -   圆形
@@ -100,7 +105,7 @@ icon: 'circle',
 
 #### b. 图标放在文字右边
 - 图标居右
-```
+```typescript
 align: 'right',
 ```
 - 默认(居左)
@@ -111,7 +116,7 @@ align: 'right',
 
 >   （默认：黑色）
 
-```
+```typescript
 textStyle: {color: "#fff"},
 ```
 
@@ -119,7 +124,7 @@ textStyle: {color: "#fff"},
 
 #### a. 垂直排列
 
-```
+```typescript
 orient: 'vertical',
 ```
 - 默认(水平排列)
@@ -131,16 +136,16 @@ orient: 'horizontal',
 
 >    (默认：上)
 
-```
+```typescript
 top: 'center',
 right: 80,
 ```
 
-```
+```typescript
 left: '60%',right: 80,
 ```
 - 调整图表位置
-```
+```typescript
 grid: {
   left: '5%',
   right: '14%',
@@ -191,7 +196,7 @@ data:nameArray.slice(4,8),
 
 ## Title
 
-```
+```typescript
 // 主标题
 text
 link: 'https://echarts.apache.org/zh/option.html#title.link',
@@ -427,7 +432,7 @@ splitLine: {"show": false},
 
 >   样式(颜色、虚线)
 
-```
+```typescript
 splitLine: {
 	"show": true,
 	"lineStyle": {"type": "solid","color": "red"}
@@ -438,7 +443,7 @@ splitLine: {
 
 >    <聚焦柱体线>
 
-```
+```typescript
 axisPointer: {
 	show: true,
 	lineStyle: {color: "green"}
@@ -451,7 +456,7 @@ axisPointer: {
 
 #### show
 
-```
+```typescript
 "axisLabel": {show: false},
 ```
 
@@ -472,7 +477,7 @@ axisLabel: {
 
 >   坐标轴两边不留白
 
-```
+```typescript
 "boundaryGap": true,
 ```
 

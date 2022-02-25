@@ -1,16 +1,47 @@
+[bar1]: ../../../.vuepress/public/assets/echarts/bar/bar1.png
+[bar2]: ../../../.vuepress/public/assets/echarts/bar/bar2.png
+[bar3]: ../../../.vuepress/public/assets/echarts/bar/bar3.png
+[bar4]: ../../../.vuepress/public/assets/echarts/bar/bar4.png
+[bar5]: ../../../.vuepress/public/assets/echarts/bar/bar5.png
+[bar6]: ../../../.vuepress/public/assets/echarts/bar/bar6.png
+
+
+
+
+[line1]: ../../../.vuepress/public/assets/echarts/line/line1.png
+[line2]: ../../../.vuepress/public/assets/echarts/line/line2.png
+[line3]: ../../../.vuepress/public/assets/echarts/line/line3.png
+[line4]: ../../../.vuepress/public/assets/echarts/line/line4.png
+[line5]: ../../../.vuepress/public/assets/echarts/line/line5.png
+
+
+[pie1]: ../../../.vuepress/public/assets/echarts/pie/pie1.png
+[pie2]: ../../../.vuepress/public/assets/echarts/pie/pie2.png
+[pie3]: ../../../.vuepress/public/assets/echarts/pie/pie3.png
+[pie4]: ../../../.vuepress/public/assets/echarts/pie/pie4.png
+[pie5]: ../../../.vuepress/public/assets/echarts/pie/pie5.png
+[pie6]: ../../../.vuepress/public/assets/echarts/pie/pie6.png
+
+
+[radar1]: ../../../.vuepress/public/assets/echarts/radar/radar1.png
+[radar2]: ../../../.vuepress/public/assets/echarts/radar/radar2.png
+[radar3]: ../../../.vuepress/public/assets/echarts/radar/radar3.png
+[radar4]: ../../../.vuepress/public/assets/echarts/radar/radar4.png
+[radar5]: ../../../.vuepress/public/assets/echarts/radar/radar5.png
+[radar6]: ../../../.vuepress/public/assets/echarts/radar/radar6.png
+
 # EchartsExample
 
-[TOC]
-
-
+[[TOC]]
 
 ## Bar
 
 ### bar1
 
-![](imgs/bar1.png)
+![bar1]
 
-```
+::: details 点击查看代码
+```typescript
 option = {
     tooltip: {
         trigger: 'axis'
@@ -121,12 +152,14 @@ var seriesData = [{
     }
 }]
 ```
+:::
 
 ### bar2
 
-![](imgs/bar2.png)
+![bar2]
 
-```
+::: details 点击查看代码
+```typescript
 var data1 = [709, 1999, 709, 2299, 3299, 2299, 1999, 2999, 1999, 709, 1999, 709];
 var xData = function() {
     var data = [];
@@ -257,12 +290,15 @@ option = {
     }],
 };
 ```
+:::
+
 
 ### bar3
 
-![](imgs/bar3.png)
+![bar3]
 
-```
+::: details 点击查看代码
+```typescript
 var ydata = [{
     value: 1105,
     itemStyle: {
@@ -384,12 +420,14 @@ option = {
     ]
 }
 ```
+:::
 
 ### bar4
 
-![](imgs/bar4.png)
+![bar4]
 
-```
+::: details 点击查看代码
+```typescript
 option = {
     baseOption: {
         timeline: {
@@ -815,12 +853,15 @@ option = {
 
 };
 ```
+:::
+
 
 ### bar5
 
-![](imgs/bar5.png)
+![bar5]
 
-```
+::: details 点击查看代码
+```typescript
 option = {
     // backgroundColor: '#323232',
     grid: {
@@ -935,12 +976,14 @@ option = {
     ]
 };
 ```
+:::
 
 ### bar6
 
-![](imgs/bar6.png)
+![bar6]
 
-```
+::: details 点击查看代码
+```typescript
 option = {
     legend: {
         icon: "circle",
@@ -1049,16 +1092,17 @@ var nature_gasData = [20, 30, 30, 20, 20];
 var coalData = [30, 20, 30, 20, 20];
 var powerData = [20, 30, 20, 30, 40];
 ```
-
+:::
 
 
 ## Line
 
 ### line1
 
-![](imgs/line1.png)
+![line1]
 
-```
+::: details 点击查看代码
+```typescript
 var seriesData = [
     [60, 280, 50, 193, 390, 330, 220],
     [120, 232, 101, 334, 290, 330, 320]
@@ -1184,12 +1228,15 @@ option = {
     ]
 };
 ```
+:::
+
 
 ### line2
 
-![](imgs/line2.png)
+![line2]
 
-```
+::: details 点击查看代码
+```typescript
 option = {
     "backgroundColor": "#1A253A",
     "tooltip": {
@@ -1340,12 +1387,15 @@ option = {
     "color": ["#8C25FF", "#0078FF", "#FF4040", "#E60636", "#F65A70", "#EA5A94", "#FF5BE2", "#F56134", "#FF9D4D", "#F1F406", "#BBF25B"]
 }
 ```
+:::
+
 
 ### line3
 
-![](imgs/line3.png)
+![line3]
 
-```
+::: details 点击查看代码
+```typescript
 var nameArr = ['一生产线', '二生产线', '三生产线', '四生产线', '五生产线', '六生产线', '七生产线', '八生产线', '九生产线', '十生产线', '十一生产线']
 
 option = {
@@ -1688,12 +1738,15 @@ option = {
 
 };
 ```
+:::
+
 
 ### line4
 
-![](imgs/line4.png)
+![line4]
 
-```
+::: details 点击查看代码
+```typescript
 option = {
     legend: {
         orient: 'vertical',
@@ -2443,9 +2496,14 @@ option = {
     ]
 }
 ```
+:::
+
+
 
 ### line5
-```javascript
+
+::: details 点击查看代码
+```typescript
 let xData = ["03:00", "04:00", "05:00", "06:00", "07:00", "08:00", "09:00", "10:00", "11:00"];
 let seriesData = [
     [118, 80, 95, 104, 110, 90, 95, 60, 80],
@@ -2540,7 +2598,7 @@ option = {
     ]
 };
 ```
-
+:::
 
 
 
@@ -2549,9 +2607,10 @@ option = {
 
 ### 1.  进度条
 
-<img src="./imgs/pie1.png" style="zoom:100%" />
+![pie1]
 
-```
+::: 点击查看代码
+```typescript
 var value = 96;
 
 option = {
@@ -2657,12 +2716,13 @@ option = {
     ]
 }
 ```
+::: 
 
 ### 2. pie2
 
-![](imgs/pie2.png)
-
-```
+![pie2]
+::: 点击查看代码
+```typescript
 var seriesData = [{
         value: 30,
         name: '云服务'
@@ -2757,12 +2817,13 @@ option = {
     }]
 };
 ```
-
+:::
 ### 3. pie3
 
-![](imgs/pie3.png)
+![pie3]
 
-```
+::: 点击查看代码
+```typescript
 //颜色16进制换算rgba,添加透明度
 function hexToRgba(hex, opacity) {
     return (
@@ -3033,14 +3094,12 @@ option = {
     ],
 };
 ```
+::: 
 
 ### 4. pie4
 
-
-
-
-
-```
+::: 点击查看代码
+```typescript
 option = {
     // "title": {
     //     "x": "center"
@@ -3121,12 +3180,14 @@ for (var i = 0; i < country.length; i++) {
 };
 */
 ```
+:::
+
 
 ### 5.pie5
 
-![](imgs/pie5.png)
-
-```
+![pie5]
+::: 点击查看代码
+```typescript
 var seriesData = [{
         name: '化肥1',
         value: 30,
@@ -3198,12 +3259,15 @@ option = {
     }]
 };
 ```
+:::
+
 
 ### 6. pie6
 
-<img src="./imgs/pie6.png" style="zoom:100%" />
+![pie6]
 
-```
+::: 点击查看代码
+```typescript
 //颜色16进制换算rgba,添加透明度
 function hexToRgba(hex, opacity) {
     return (
@@ -3504,16 +3568,17 @@ option = {
     ],
 };
 ```
-
+:::
 
 
 ## Radar
 
 ### 1.雷达图
 
-![](imgs/radar1.png)
+![radar1]
 
-```
+::: 点击查看代码
+```typescript
 var seriesData = [{
         value: [800, 600, 780, 560, 900, 480],
         name: '累计成交',
@@ -3616,12 +3681,14 @@ option = {
     }]
 };
 ```
+:::
 
 ### radar2
 
-![](imgs/radar2.png)
+![radar2]
 
-```
+::: 点击查看代码
+```typescript
 option = {
     // color:['#8C25FF','#0078FF'],
     // "backgroundColor": "#1A253A",
@@ -3734,14 +3801,16 @@ option = {
     // "color": ['#8C25FF','#0078FF', "#FFE44E", "#FF4040", "#E60636", "#F65A70", "#EA5A94", "#F56134", "#FF9D4D", "#F1F406", "#BBF25B"]
 }
 ```
+:::
 
 ## Scatter
 
 ### scatter1
 
-![](imgs/scatter1.png)
+![scatter1]
 
-```
+::: 点击查看代码
+```typescript
 option = {
     //backgroundColor: '#0C2F6F',
     "title": {
@@ -3841,16 +3910,17 @@ option = {
     "color": ["#FF6600", "#FF9000", "#FFD033", "#B8E04C", "#5EE53F", "#FFEA00", "#EDFF20", "#7CB518", "#32A400", "#FB4607", "#EB3568"]
 }
 ```
-
+:::
 
 
 ## Gauge 
 
 ### 1. 进度条
 
-![](imgs/gauge1.png)
+![guage1]
 
-```
+::: 点击查看代码
+```typescript
 var getmax = 100;
 var getvalue = 33;
 option = {
@@ -3945,12 +4015,15 @@ option = {
     }]
 };
 ```
+:::
+
 
 ### gauge2
 
-![](imgs/gauge2.png)
+![guage2]
 
-```
+::: 点击查看代码
+```typescript
 var num = 89;
 
 option = {
@@ -4018,11 +4091,11 @@ option = {
     }, ]
 };
 ```
-
+:::
 
 ### guage3
 
-![](imgs/gauge3.png)
+![guage3]
 
 
 
@@ -4031,9 +4104,10 @@ option = {
 
 ### 1. 中国地图
 
-![](imgs/map1.png)
+![map1]
 
-```
+::: 点击查看代码
+```typescript
 var img1 = 'image://http://cosmo-child-main-nginx.apps.szdev.ocpx.cnooc/rss/project/tenant/largescreen/海油大屏开发/largesd/productlc/support/img/fertilizerimg/third.png';
 var img_green = 'image://http://cosmo-child-main-nginx.apps.szdev.ocpx.cnooc/rss/project/tenant/largescreen/海油大屏开发/largesd/productlc/support/img/fertilizerimg/zu24_huafei.png';
 var img_yellow = 'image://http://cosmo-child-main-nginx.apps.szdev.ocpx.cnooc/rss/project/tenant/largescreen/海油大屏开发/largesd/productlc/support/img/fertilizerimg/zu25_huafei.png';
@@ -4311,12 +4385,15 @@ option = {
     // "color": ["#1CB4FF", "#787FF6", "#4E6BFF", "#102088", "#4ADEDE", "#41DEBB", "#41DDFF", "#0036FF", "#3A0CA3", "#7209B7", "#F72585"]
 };
 ```
+:::
+
 
 ### map2
 
-![](imgs/map2.png)
+![map2]
 
-```
+::: 点击查看代码
+```typescript
 // var img1 = 'image://http://cosmo-child-main-nginx.apps.szdev.ocpx.cnooc/rss/project/tenant/largescreen/海油大屏开发/largesd/productlc/support/img/fertilizerimg/third.png';
 
 var mapDate = [{
@@ -4480,6 +4557,7 @@ option = {
     "color": ["#1CB4FF", "#787FF6", "#4E6BFF", "#102088", "#4ADEDE", "#41DEBB", "#41DDFF", "#0036FF", "#3A0CA3", "#7209B7", "#F72585"]
 };
 ```
+:::
 
 ## Tabel
 
