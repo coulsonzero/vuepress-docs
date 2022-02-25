@@ -15,7 +15,8 @@ module.exports = {
                     { text: 'javascript', link: '/frontend/javascript' },
                     { text: 'scss', link: '/frontend/scss' },
                     { text: 'react', link: '/frontend/react' },
-                    { text: 'vue', link: '/frontend/vue' }
+                    { text: 'vue', link: '/frontend/vue' },
+                    { text: 'echarts', link: '/frontend/echarts' }
                 ]
             },
             { text: '后端', 
