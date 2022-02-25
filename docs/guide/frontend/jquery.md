@@ -1,10 +1,6 @@
 # JQuery
 
-------
 
-[TOC]
-
-------
 
 ## Overview
 

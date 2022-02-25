@@ -1,6 +1,6 @@
 # Echarts
 
-[[TOC]]
+
 
 ## Legend
 

@@ -14,10 +14,15 @@ module.exports = {
                     { text: 'css', link: '/guide/frontend/css' },
                     { text: 'javascript', link: '/guide/frontend/javascript' },
                     { text: 'scss', link: '/guide/frontend/scss' },
-                    { text: 'react', link: '/guide/frontend/react' },
-                    { text: 'vue', link: '/guide/frontend/vue' },
                     { text: 'jquery', link: '/guide/frontend/jquery' },
-                    { text: 'echarts', link: '/guide/frontend/echarts/QuickStart'}
+                    { text: 'vue', link: 'https://v3.cn.vuejs.org/' },
+                    { text: 'react', link: 'https://react.docschina.org/' },
+                    { text: 'webpack', link: 'https://www.webpackjs.com/'},
+                    { text: 'vite', link: 'https://cn.vitejs.dev/'},
+                    { text: 'echarts', link: '/guide/frontend/echarts/QuickStart'},
+                    { text: 'swiper', link: 'https://swiperjs.com/demos'},
+                    { text: 'scroolreveal', link: 'https://scrollrevealjs.org/'},
+                    { text: 'vuepress', link: 'https://v2.vuepress.vuejs.org/zh/'}
                 ]
             },
             { text: '后端', 

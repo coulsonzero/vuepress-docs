@@ -1,6 +1,6 @@
 # 雷达图
 
-[TOC]
+
 
 ## For Example
 ```javascript

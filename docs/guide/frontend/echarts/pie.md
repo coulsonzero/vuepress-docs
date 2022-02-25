@@ -1,12 +1,12 @@
 # 饼状图
 
-[TOC]
+
 
 ## Overview
 
 ### 基础饼图
 
-```
+```ts
 option = {
   series: [{
       type: 'pie',
@@ -47,7 +47,7 @@ series: [{
 radius: ['64%', '70%'],
 ```
 ### 圆环间隔 itemStyle
-```
+```ts
 itemStyle: {
     borderRadius: 10,
     borderColor: '#fff',
@@ -58,7 +58,7 @@ itemStyle: {
 
 
 
-```
+```ts
 itemStyle: {
     color: '#c23531',
     shadowBlur: 200,
@@ -91,7 +91,7 @@ selectedMode: 'single',
 
 **默认显示一个，切换显示不重叠**
 写法一
-```
+```ts
 label: {
     normal: {
         show: true,
@@ -106,7 +106,7 @@ label: {
 },
 ```
 写法二
-```
+```ts
 label: {
     show: true,
     position: 'center'
@@ -121,13 +121,13 @@ emphasis: {
 
 #### 标签颜色
 
-```
+```ts
 label: {
 	color: 'rgba(255, 255, 255, 0.3)'
 },
 ```
 #### 标签线 labelLine
-```
+```ts
 labelLine: {
     lineStyle: {
     	color: 'rgba(255, 255, 255, 0.3)'
@@ -138,7 +138,7 @@ labelLine: {
 },
 ```
 ### 悬浮 emphasis
-```
+```ts
 emphasis: {
     label: {
         show: true,
@@ -148,7 +148,7 @@ emphasis: {
 },
 ```
 #### 内标签悬浮（默认隐藏）
-```
+```ts
 label: {
     show: false,
     position: 'center'
@@ -166,7 +166,7 @@ emphasis: {
 
 - `label:{show: false}`改为`true`
 - 注释掉`// position: 'center'`
-```
+```ts
 label: {
     show: true,
     // position: 'center'
@@ -182,7 +182,7 @@ emphasis: {
 ```
 
 ### 加载动画
-```
+```ts
 animationType: 'scale',
 animationEasing: 'elasticOut',
 animationDelay: function (idx) {
@@ -191,12 +191,12 @@ animationDelay: function (idx) {
 ```
 ### 多层饼图嵌套 radius
 
-```
+```ts
 radius: [0, '30%'],
 radius: ['60%', '70%'],
 ```
 
-```
+```ts
 series: [
     {
         name: '访问来源',
@@ -247,7 +247,7 @@ series: [
 ------
 
 ## VisualMap(对比色图)
-```
+```ts
 visualMap: {
     show: true,
     min: 80,
@@ -316,7 +316,7 @@ textStyle: {
 ```
 
 
-```
+```ts
 var trafficWay = [{
     name: '病假',
     value: 20
@@ -495,7 +495,7 @@ myChart.on('mouseout', (params) => {
 
 ### 标签显示切换2
 
-```
+```ts
 option = {
     color: ['#ffd200', '#1affff', '#92ff0a', '#129bfb', '#ffd'],
     backgroundColor: '#1fb0aa',

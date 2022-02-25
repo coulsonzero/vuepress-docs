@@ -3,7 +3,7 @@
 </div>
 
 
-[TOC]
+
 
 ## 基础折线图
 ```javascript

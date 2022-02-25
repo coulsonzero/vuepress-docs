@@ -1,6 +1,5 @@
 # SQL
 
-[TOC]
 
 ## Database
 ### 查询数据库
