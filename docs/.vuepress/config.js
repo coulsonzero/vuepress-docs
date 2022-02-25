@@ -1,14 +1,13 @@
 module.exports = {
     title: 'CoulsonZero',
     description: '文档管理中心',
-    host: '127.0.0.1',
     port: 80,
     themeConfig: {
 		logo: "https://vuejs.org/images/logo.png",
         navbar: [
             { text: '主页', link: '/'},
             { text: 'Bing', link: 'https://cn.bing.com'},
-            { text: '前端', 
+            { text: '前端',
                 children: [
                     { text: 'html', link: '/guide/frontend/html' },
                     { text: 'css', link: '/guide/frontend/css' },
@@ -25,11 +24,11 @@ module.exports = {
                     { text: 'vuepress', link: 'https://v2.vuepress.vuejs.org/zh/'}
                 ]
             },
-            { text: '后端', 
+            { text: '后端',
                 children: [
                     { text: 'java', link: '/guide/backend/java'},
                     { text: 'python', link: '/guide/backend/python'},
-                    { text: 'go', link: '/guide/backend/go'}, 
+                    { text: 'go', link: '/guide/backend/go'},
                     { text: 'swift', link: '/guide/backend/swift'}
                 ]
             },
