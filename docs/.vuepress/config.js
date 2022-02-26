@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/docs/',
     title: 'CoulsonZero',
     description: '文档管理中心',
     port: 80,
