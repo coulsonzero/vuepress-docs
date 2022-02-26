@@ -4,7 +4,7 @@
 
 # MarkDown
 
-## 目录 
+## 目录
 -----
 [TOC]
 
@@ -51,9 +51,9 @@ class Main {
 
 ### 图片
 
-![demo1](img/title.png)
+![demo1]()
 
-<img src="img/title.png" style="zoom:100%" />
+
 
 ### 流程图
 ```mermaid
