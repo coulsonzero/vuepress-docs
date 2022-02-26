@@ -1,0 +1,1 @@
+const e={key:"v-e3ac73d4",path:"/guide/backend/python.html",title:"python",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:164567286e4,contributors:[{name:"coulsonzero",email:"coulson2021@163.com",commits:1}]},filePathRelative:"guide/backend/python.md"};export{e as data};
