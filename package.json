@@ -23,7 +23,6 @@
     "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.4"
   },
   "dependencies": {
-    "@vuepress/plugin-docsearch": "2.0.0-beta.35",
     "@vuepress/shared-utils": "^1.9.7",
     "lru-cache": "^7.4.0",
     "vuepress-plugin-code-copy": "^1.0.6"
